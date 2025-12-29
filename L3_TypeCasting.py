@@ -19,4 +19,23 @@ print(type(res2))
 # float to string
 # string(number) to float
 #string to boolean ---> only true is conatin string, false if have empty string
+#all will give true even space is count to be non empty
+print(bool("False")) 
+print(bool("True"))
+print(bool("Hello"))
+print(bool("0"))
+print(bool(" "))
 
+
+#tuple into list and vicevera
+#we connot convert complex to init
+
+a=5.9
+print(int(a))  #5.9
+print(round(a))#6
+
+""" 
+What errors occur in type casting?
+ValueError
+TypeError
+"""

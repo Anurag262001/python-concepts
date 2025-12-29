@@ -16,9 +16,9 @@ def add(a,b):
 res=add(a,b)
 print(res)
 
-def add(y,x):
+def add(y=90,x=10):
     return y+x
-ress=add(x=10,y=20)
+ress=add(80,80) #if 80,80 will not pass the it will take 90 and 10 as default
 print(ress)
 
 #pass function:- we use when we add the code later not now. 

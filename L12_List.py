@@ -11,6 +11,12 @@ for x in fruits:
 nestedList=[1,2,[3,4],True,[2,3,4,5]]
 print(nestedList)
 
+for i in range(len(fruits)):
+    print(fruits[i])
+
+#another way to create the list is using list constructor
+listdata=list(("a","b","c","d"))
+
 """ List Slicing """
 #listname[Start:stop:step]
 l=[1,2,3,4,5,6,7,8,9,9]
@@ -24,6 +30,7 @@ l.append(40) #one element
 l.extend([40,30]) #multiple element
 l.insert(1,15) #insert an element at specific index
 l.remove(4) #gives error if not found the element
+del l[9] #delete the 9th index value
 l.pop() #removes last element as default
 l.pop(5) #removes index 5 element, error if index is not present
 l.clear() #empty the list
@@ -31,7 +38,25 @@ l.index(6) #gives the value of the specified index error if not found the index
 l.count(5) #count the occurance of the value
 l.sort() #it will sort on the bases
 l.reverse()
+l[4]="Anurag" #change the value of tuple at inidex 4 with "Anurag"
 l.copy() #creates the shallow copy of list
 len(l) #gives the length of the list
 
 #join two list we use + operator or append using loop 
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+for x in list2:
+  list1.append(x)
+print(list1)
+
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)
