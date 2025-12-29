@@ -18,11 +18,11 @@ class y:
         self.name=name
         self.age=age
         self.loc=loc
-""" 
+
 class z(x,y): #the constructor function will be inherited of the first class that has been inherited. This is MRO(method resolution order)
-print("hey")
+    print("hey")
 obj=z("anurag")
-"""
+
 class z(y,x): #the constructor function will be inherited of the first class that has been inherited. This is MRO(method resolution order)
     print("hey")
 obj=z("anurag",23,"noida")

@@ -20,9 +20,6 @@ class x(y):
 OBJ=x()
 OBJ.show()
 
-
-
-
 #super with constructor
 class Parent:
     def __init__(self):
