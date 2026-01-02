@@ -2,8 +2,8 @@
 try 
 except 
 else 
-finally
 raise
+finally
 
 """
 a=int(input("enter the number you want to divide"))

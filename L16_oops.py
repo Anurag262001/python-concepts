@@ -7,8 +7,6 @@ obj = test()
 print(obj.a)
 obj.run()
 
-
-
 class test2:
     a=10    #class attribute
     def __init__(self,name,age,loc):

@@ -43,19 +43,6 @@ obj.run("running dog")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 """ print("hello world")
 a=5
 print(a)
