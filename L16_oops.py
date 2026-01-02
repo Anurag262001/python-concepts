@@ -35,8 +35,4 @@ print(obj2.age)
 print(obj2.loc)
 obj2.details()
 
-obj3=test2()
-obj3.mymethod
-
-obj4=test2()
-obj4.staticmeth()
+test2.staticmeth() #directly called using the class name
