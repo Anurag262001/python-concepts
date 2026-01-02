@@ -1,4 +1,4 @@
-""" class L16_oops: #class
+class L16_oops: #class
     a=1
     b=2
 obj = L16_oops()
@@ -12,7 +12,7 @@ class a:
 obj = a()
 obj.show()
  
- """
+
 class L_16_oops:
     def __init__(self,name,age): #constructor
         self.name=name

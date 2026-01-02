@@ -1,4 +1,4 @@
-#self target the location capture the location of the object
+#self parameter is a reference to the current instance of the class and is used to access variables that belongs to the class
 class test:
     a=10
     def run(self):
