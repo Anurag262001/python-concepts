@@ -12,7 +12,6 @@ class a:
 obj = a()
 obj.show()
  
-
 class L_16_oops:
     def __init__(self,name,age): #constructor
         self.name=name
