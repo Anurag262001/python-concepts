@@ -1,14 +1,22 @@
 #if in each class have same attributes then it will take the last child attribute
 class a:
     name1="Anurag"
+    car="bmw"
 class b:
     name2="Sharma"
+    car="Skoda"
 class c(a,b):
     name3="best"
+    car="lambo"
 obj = c()
 print(obj.name1)
+print(obj.car)
+obj2=b()
+print(obj2.car)
 
  
+
+#important
 #the constructor function will be inherited of the first class that has been inherited. This is MRO(method resolution order)
 class x:
     def __init__(self,name):
@@ -26,3 +34,5 @@ obj=z("anurag")
 class z(y,x): #the constructor function will be inherited of the first class that has been inherited. This is MRO(method resolution order)
     print("hey")
 obj=z("anurag",23,"noida")
+
+
