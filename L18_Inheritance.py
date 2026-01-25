@@ -8,7 +8,6 @@ obj=b()
 print(obj.name)
 obj.greet()
 
-
 class test:
     def __init__(self,name,age):
         self.name=name

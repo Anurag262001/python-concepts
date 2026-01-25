@@ -3,3 +3,9 @@
 name=input("enter your name")
 print(f"welcome {name} have a nice day")
 
+
+
+x=int(input("enter the age"))
+print(f"hello your age is {x}")
+
+

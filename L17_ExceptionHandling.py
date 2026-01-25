@@ -4,7 +4,6 @@ except
 else 
 raise
 finally
-
 """
 a=int(input("enter the number you want to divide"))
 try:
